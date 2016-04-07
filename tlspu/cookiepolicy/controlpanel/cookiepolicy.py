@@ -47,6 +47,14 @@ class ICookiePolicySchema(Interface):
         required=True,
     )
 
+    TCP_policy = TextLine(
+        title=_(u'Policy'),
+        description=_(u'help_tcp_policy',
+            default=u"Enter the location of the privacy policy",
+        ),
+        required=False,
+    )
+
 
 class BaseControlPanelAdapter(SchemaAdapterBase):
     """ Base control panel adapter """
@@ -65,6 +73,7 @@ class CookiePolicyControlPanelAdapter(BaseControlPanelAdapter):
     TCP_enabled = ProxyFieldProperty(ICookiePolicySchema['TCP_enabled'])
     TCP_title = ProxyFieldProperty(ICookiePolicySchema['TCP_title'])
     TCP_message = ProxyFieldProperty(ICookiePolicySchema['TCP_message'])
+    TCP_policy = ProxyFieldProperty(ICookiePolicySchema['TCP_policy'])
 
 baseset = FormFieldsets(ICookiePolicySchema)
 baseset.id = 'cookiepolicy'
