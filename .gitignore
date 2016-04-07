@@ -1,0 +1,12 @@
+dist
+*.egg-info
+*.pyc
+*.mo
+# eclipse
+.settings
+.project
+.pydevproject
+
+# tmp files
+*.swp
+*~
