@@ -1,0 +1,68 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: tlspu.cookiepolicy 1.0\n"
+"POT-Creation-Date: 2012-08-16 12:22+0000\n"
+"PO-Revision-Date: 2016-04-07 15:18+0100\n"
+"Last-Translator: Peter Reimer <reimer@hbz-nrw.de>\n"
+"Language-Team: Peter Reimer <reimer@hbz-nrw.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tlspu.cookiepolicy\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: de\n"
+
+#: controlpanel/cookiepolicy.py:79
+msgid "Configure settings for Cookie Policy."
+msgstr "Einstellungen für Cookie Policy konfigurieren"
+
+#: controlpanel/cookiepolicy.py:71 profiles/default/actionicons.xml
+#: profiles/default/controlpanel.xml
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: controlpanel/cookiepolicy.py:78
+msgid "Cookie Policy settings"
+msgstr "Cookie Policy Einstellungen"
+
+#: controlpanel/cookiepolicy.py:26
+msgid "Enable Cookie Policy"
+msgstr "Cookie Policy aktivieren"
+
+#: browser/templates/cookiepolicy.pt:12
+msgid "Hide this message"
+msgstr "Cookies akzeptieren"
+
+#: browser/templates/cookiepolicy.pt:11
+msgid "I have read and understood this message."
+msgstr "Ich habe diesen Hinweis gelesen und verstanden."
+
+#: controlpanel/cookiepolicy.py:41
+msgid "Message"
+msgstr "Meldung"
+
+#: controlpanel/cookiepolicy.py:33
+msgid "This Site Uses Cookies"
+msgstr "Diese Seite verwendet Cookies"
+
+#: controlpanel/cookiepolicy.py:32
+msgid "Title"
+msgstr "Titel"
+
+#. Default: "Enter the message for the CookiePolicy panel. This may contain HTML"
+#: controlpanel/cookiepolicy.py:42
+msgid "help_tcp_message"
+msgstr ""
+"Geben Sie die Meldung für den Cookie Hinweis ein. HTML darf verwendet werden."
+
+#. Default: "Enter the title for the CookiePolicy panel"
+#: controlpanel/cookiepolicy.py:34
+msgid "help_tcp_title"
+msgstr "Geben Sie den Titel für den Cookie Hinweis ein."
