@@ -27,8 +27,16 @@
     padding: 0px;
     margin: 0px;
 }
+#tlspu_cookiepolicy_policy {
+    padding: 8px 0 0 0;
+    float: left;
+}
+#tlspu_cookiepolicy_policy a {
+    color: #fff;
+    border-bottom: 0.1em solid #fff;
+}
 #tlspu_cookiepolicy_form {
-    padding: 8px 0 8px 0;
+    padding: 8px 0 0 0;
     text-align: right;
 }
 #tlspu_cookiepolicy_button {
