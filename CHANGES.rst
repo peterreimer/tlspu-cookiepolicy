@@ -1,6 +1,16 @@
 Changelog
 ---------
 
+1.1.4 (2016-04-14)
+^^^^^^^^^^^^^^^^^^
+
+- german translation
+
+- additional field for policy location
+
+- css tweaks
+
+
 1.1.3
 ^^^^^
 

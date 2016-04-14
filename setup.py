@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 readme = open('README.rst').read()
 changes = open('CHANGES.rst').read()
 
-version = '1.1.3'
+version = '1.1.4'
 
 setup(name = 'tlspu.cookiepolicy',
       version = version,
@@ -19,9 +19,9 @@ setup(name = 'tlspu.cookiepolicy',
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords = 'python plone zope cookie eu law',
-      author = 'TLSPU',
-      author_email = 'contact@tlspu.com',
-      url = 'http://www.tlspu.com/consultancy/cookiepolicy',
+      author = 'Peter Reimer',
+      author_email = 'reimer@hbz-nrw.de',
+      url = 'https://github.com/peterreimer/tlspu.cookiepolicy',
       license = 'AGPL',
       packages = find_packages(exclude = ['ez_setup']),
       namespace_packages = ['tlspu'],
