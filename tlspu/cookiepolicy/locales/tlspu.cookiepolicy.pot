@@ -39,6 +39,9 @@ msgstr ""
 msgid "Hide this message"
 msgstr ""
 
+msgid "Find out more"
+msgstr ""
+
 #: ./browser/templates/cookiepolicy.pt:11
 msgid "I have read and understood this message."
 msgstr ""
