@@ -21,25 +21,23 @@
     color: #ffffff;
     margin: 0 0 10px 0;
 }
-#tlspu_cookiepolicy_message, #tlspu_cookiepolicy_form {
+#tlspu_cookiepolicy_message {
     font-weight: normal;
     text-align: justify;
-    padding: 0px;
+    padding: 0 0 1em 0;
     margin: 0px;
 }
-#tlspu_cookiepolicy_policy {
-    padding: 8px 0 0 0;
-    float: left;
-}
-#tlspu_cookiepolicy_policy a {
-    color: #fff;
-    border-bottom: 0.1em solid #fff;
-}
-#tlspu_cookiepolicy_form {
-    padding: 8px 0 0 0;
+#tlspu_cookiepolicy_buttons {
     text-align: right;
 }
-#tlspu_cookiepolicy_button {
-    padding: 2px 8px 2px 8px;
-    margin-left: 16px;
+#viewlet-cookiepolicy a {
+    color: #fff;
+    margin-top: 1em;
+    padding: 0.3em 1em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+a#tlspu_cookiepolicy_agreed {
+    background-color: #fff;
+    color: #333;
 }

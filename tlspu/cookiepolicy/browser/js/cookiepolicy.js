@@ -1,16 +1,16 @@
 function hideCookiePolicy() {
     jQuery("#viewlet-cookiepolicy").each(function() {
-        jQuery(this).slideUp(500);
+        jQuery(this).slideUp(0);
     });
 }
 function displayCookiePolicy() {
     jQuery("#viewlet-cookiepolicy").each(function() {
-        jQuery(this).slideDown(500);
+        jQuery(this).slideDown(0);
     });
 }
 jQuery(function() {
-    var btn = document.getElementById("tlspu_cookiepolicy_button")
-    var chk = document.getElementById("tlspu_cookiepolicy_agreed")
+    var btn = document.getElementById("tlspu_cookiepolicy_agreed")
+    var chk = true
 
     if (btn == null) {
         return;

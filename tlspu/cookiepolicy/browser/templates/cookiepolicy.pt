@@ -12,18 +12,24 @@
     <p id="tlspu_cookiepolicy_message"
         tal:content="structure view/message">Message</p>
     
-    <p id="tlspu_cookiepolicy_policy">
+    <p id="tlspu_cookiepolicy_buttons">
         <a tal:condition="policy"
-           href="#" 
+           href="#"
+           id="tlspu_cookiepolicy_policy"
            tal:attributes="href string:$portal_url/$policy"
            i18n:translate="">Find out more</a>
+        
+        <a href="#" 
+           id="tlspu_cookiepolicy_agreed"
+           i18n:translate="">Hide this message</a>
     </p>
-
+    <!--
     <form id="tlspu_cookiepolicy_form">
         <input type="checkbox" id="tlspu_cookiepolicy_agreed" value="confirmed" />
         <label for="tlspu_cookiepolicy_agreed" i18n:translate="">I have read and understood this message.</label>
         <button disabled="disabled" id="tlspu_cookiepolicy_button" value="hide" i18n:translate="">Hide this message</button>
     </form>
+    -->
     
 
 </div>
