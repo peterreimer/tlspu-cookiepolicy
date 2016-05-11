@@ -30,8 +30,9 @@
 #tlspu_cookiepolicy_buttons {
     text-align: right;
 }
-#viewlet-cookiepolicy a {
+#tlspu_cookiepolicy_buttons a {
     color: #fff;
+    white-space: nowrap;
     margin-top: 1em;
     padding: 0.3em 1em;
     border: 1px solid #fff;

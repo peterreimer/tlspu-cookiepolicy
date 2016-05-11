@@ -34,7 +34,7 @@ class ICookiePolicySchema(Interface):
         description=_(u'help_tcp_title',
             default=u"Enter the title for the CookiePolicy panel",
         ),
-        required=True,
+        required=False,
     )
 
     TCP_message = Text(

@@ -6,7 +6,8 @@
      i18n:domain="tlspu.cookiepolicy"
      tal:condition="view/enabled">
 
-    <h1 id="tlspu_cookiepolicy_title"
+    <h1 tal:condition="view/title"
+        id="tlspu_cookiepolicy_title"
         tal:content="view/title">Title</h1>
     
     <p id="tlspu_cookiepolicy_message"
