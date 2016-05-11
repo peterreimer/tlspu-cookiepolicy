@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 readme = open('README.rst').read()
 changes = open('CHANGES.rst').read()
 
-version = '1.1.4'
+version = '1.1.5'
 
 setup(name = 'tlspu.cookiepolicy',
       version = version,

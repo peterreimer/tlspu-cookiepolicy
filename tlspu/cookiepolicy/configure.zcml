@@ -15,7 +15,7 @@
 
     <genericsetup:registerProfile
         name="default"
-        title="TLSPU Cookie Policy"
+        title="Cookie Policy"
         directory="profiles/default"
         description="A simple, yet useful, cookie policy announcement"
         provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -23,9 +23,9 @@
 
     <genericsetup:registerProfile
         name="uninstall"
-        title="Uninstall TLSPU Cookie Policy"
+        title="Uninstall Cookie Policy"
         directory="profiles/uninstall"
-        description="Removes TLSPU Cookie Policy"
+        description="Removes Cookie Policy"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         for="Products.CMFPlone.interfaces.IPloneSiteRoot"
     />
