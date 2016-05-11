@@ -1,6 +1,5 @@
-===============================================
-TLSPU Cookie Policy (tlspu.cookiepolicy)
-===============================================
+Cookie Policy (tlspu.cookiepolicy)
+==================================
 
 .. contents:: Table of Contents
    :depth: 2
@@ -9,8 +8,9 @@ TLSPU Cookie Policy (tlspu.cookiepolicy)
 Overview
 --------
 
-**TLSPU Cookie Policy** is a Plone package (add-on) providing simple a simple
-solution to comply with the so called "European Cookie Law".
+**Cookie Policy** is a Plone package (add-on) providing simple a simple
+solution to comply with the so called "European Cookie Law". It's development
+started as **TLSPU Cookie Policy**.
 
 
 Details
@@ -38,13 +38,13 @@ Requirements
 
 Tested with
 
-    - Plone 4.2.x (http://plone.org/products/plone)
-    - Plone 4.1.x (http://plone.org/products/plone)
+* Plone 4.2.x (http://plone.org/products/plone)
+* Plone 4.1.x (http://plone.org/products/plone)
 
 Should also work with
 
-    - Plone 4.0.x (http://plone.org/products/plone)
-    - Plone 3.3.x (http://plone.org/products/plone)
+* Plone 4.0.x (http://plone.org/products/plone)
+* Plone 3.3.x (http://plone.org/products/plone)
 
 
 Screenshot
@@ -58,13 +58,13 @@ Installation
 
 To enable this product, on a buildout based installation:
 
-    1. Edit your buildout.cfg and add ``tlspu.cookiepolicy``
-       to the list of eggs to install ::
+1. Edit your buildout.cfg and add ``tlspu.cookiepolicy``
+   to the list of eggs to install ::
 
-        [buildout]
-        ...
-        eggs = 
-            tlspu.cookiepolicy
+    [buildout]
+    ...
+    eggs = 
+        tlspu.cookiepolicy
 
 .. note:: Since Plone 3.3 is not is necessary to explictly inform 
           plone.recipe.zope2instance recipe to install the ZCML slug
@@ -123,15 +123,15 @@ Sponsoring
 
 Development of this product was sponsored by :
     
-    * `Historica <http://www.historica.co.uk/>`_
+* `Historica <http://www.historica.co.uk/>`_
 
     
 Credits
 -------
     
-    * `Adrian Hungate <http://www.tlspu.com/contact-us>`_ - Idea and implementation.
+* `Adrian Hungate <http://www.tlspu.com/contact-us>`_ - Idea and implementation.
 
-    * `Maurits van Rees <http://zestsoftware.nl/>`_ - General
-      improvement and Dutch translations.
+* `Maurits van Rees <http://zestsoftware.nl/>`_ - General
+  improvement and Dutch translations.
 
-    * David Carter - Fix bug killing javascript where cookiepolicy is disabled
+* David Carter - Fix bug killing javascript where cookiepolicy is disabled
