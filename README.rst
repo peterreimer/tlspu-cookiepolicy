@@ -23,7 +23,7 @@ One of the effects of this law is that anyone who runs a website which
 sets cookies (Such as Plone sites may) is breaking the law if they
 fail to notify (And get permission) for these cookies to be set.
 
-TLSPU Cookie Policy is a simple add on for your plone sites which
+Cookie Policy is a simple add on for your plone sites which
 displays a customisable message which enables you to comply with the
 "Implied Consent" variant which has been adopted into law in certain
 EU countries.
@@ -38,6 +38,7 @@ Requirements
 
 Tested with
 
+* Plone 4.3.x (http://plone.org/products/plone)
 * Plone 4.2.x (http://plone.org/products/plone)
 * Plone 4.1.x (http://plone.org/products/plone)
 
@@ -45,12 +46,6 @@ Should also work with
 
 * Plone 4.0.x (http://plone.org/products/plone)
 * Plone 3.3.x (http://plone.org/products/plone)
-
-
-Screenshot
------------
-
-    .. image:: http://www.tlspu.com/consultancy/cookiepolicy-screenshot.png
 
 
 Installation
@@ -83,7 +78,7 @@ Step 1: Activate it
 Go to the 'Site Setup' page in the Plone interface and click on the
 'Add/Remove Products' link.
 
-Choose the product **TLSPU Cookie Policy** (check checkbox at its left side)
+Choose the product **Cookie Policy** (check checkbox at its left side)
 and click the 'Activate' button.
 
 
@@ -95,7 +90,7 @@ Go to the 'Site Setup' page in the Plone interface and click on the
 
 .. image:: http://www.tlspu.com/consultancy/cookiepolicy-controlpanel.png
 
-There you can configure how **TLSPU Cookie Policy** will behave.
+There you can configure how **Cookie Policy** will behave.
 
 
 Uninstall
@@ -104,7 +99,7 @@ Uninstall
 Go to the 'Site Setup' page in the Plone interface and click on the
 'Add/Remove Products' link.
 
-Choose the product **TLSPU Cookie Policy**, which should be under *Activated
+Choose the product **Cookie Policy**, which should be under *Activated
 add-ons*, (check checkbox at its left side) and click the 'Deactivate' button.
 
 .. note:: You may have to empty your browser cache and save your resource 
@@ -114,7 +109,7 @@ add-ons*, (check checkbox at its left side) and click the 'Deactivate' button.
 Contributing
 ------------
 
-The source code is hosted at
+The orginal source code is hosted at
 http://code.google.com/p/tlspu-cookiepolicy/
 
 
@@ -130,8 +125,6 @@ Credits
 -------
     
 * `Adrian Hungate <http://www.tlspu.com/contact-us>`_ - Idea and implementation.
-
 * `Maurits van Rees <http://zestsoftware.nl/>`_ - General
   improvement and Dutch translations.
-
 * David Carter - Fix bug killing javascript where cookiepolicy is disabled
