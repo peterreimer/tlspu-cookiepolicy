@@ -38,7 +38,13 @@
     border: 1px solid #fff;
     border-radius: 5px;
 }
-a#tlspu_cookiepolicy_agreed {
+#tlspu_cookiepolicy_buttons a:hover,
+#tlspu_cookiepolicy_buttons a:focus {
     background-color: #fff;
     color: #333;
 }
+/*
+a#tlspu_cookiepolicy_agreed {
+    background-color: #fff;
+    color: #333;
+}*/
