@@ -1,6 +1,13 @@
 Changelog
 ---------
 
+1.1.5 (2016-05-18)
+^^^^^^^^^^^^^^^^^^
+
+- german default values
+
+- hide message without checkbox and fading effect 
+
 1.1.4 (2016-04-14)
 ^^^^^^^^^^^^^^^^^^
 
