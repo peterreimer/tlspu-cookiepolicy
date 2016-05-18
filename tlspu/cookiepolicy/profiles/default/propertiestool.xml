@@ -1,8 +1,8 @@
 <object name="portal_properties">
   <object name="tlspu_cookiepolicy_properties" meta_type="Plone Property Sheet">
       <property name="TCP_enabled" type="boolean" purge="False">True</property>
-      <property name="TCP_title" type="string"  purge="False">This Site Uses Cookies</property>
-      <property name="TCP_message" type="string" purge="False">We may use cookies to record some preference settings and to analyse how you use our web site. We may also use external analysis systems which may set additional cookies to perform their analysis.These cookies are integral to our web site. You can delete or disable these cookies in your web browser if you wish but then our site may not work correctly.</property>
-      <property name="TCP_policy" type="string"  purge="False" />
+      <property name="TCP_title" type="string"  purge="False">Cookies</property>
+      <property name="TCP_message" type="string" purge="False">Wir verwenden Cookies, um unsere Webseiten benutzerfreundlicher zu gestalten und um Zugriffsstatistiken zu erheben. Durch die Nutzung unserer Webseiten akzeptieren Sie die Speicherung von Cookies.</property>
+      <property name="TCP_policy" type="string"  purge="False">datenschutz</property>
   </object>
 </object>
